@@ -196,3 +196,14 @@ cite {
 .image p {
     margin: 0;
 }
+
+img:hover {
+    scale: calc(0.9);
+    border-radius: 0px;
+}
+
+button:hover {
+    scale: calc(1.2);
+    transform: rotate(1turn);
+    transition: all 1s ease-in-out;
+}
